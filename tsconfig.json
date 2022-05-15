@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        // "emitDecoratorMetadata": true,
+        "module": "commonjs",
+        "target": "ES2016",
+        "outDir": "js",
+        "rootDir": "src"
+    }
+}
