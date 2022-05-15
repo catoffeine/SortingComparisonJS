@@ -1,5 +1,3 @@
-// const mm = require('../node_modules/music-metadata');
-// const util = require('../node_modules/util');
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -9,15 +7,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-// (async () => {
-//     try {
-//         const mm = require("../node_modules/music-metadata");
-//         const metadata = await mm.parseFile('../node_modules/music-metadata/test/samples/MusicBrainz - Beth Hart - Sinner\'s Prayer [id3v2.3].V2.mp3');
-//     //   console.log(util.inspect(metadata, { showHidden: false, depth: null }));
-//     } catch (error) {
-//         console.error(error.message);
-//     }
-//     })();
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 let synth = new Tone.Synth().toMaster();
 const velocitySynth = [100, 800];

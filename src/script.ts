@@ -1,21 +1,7 @@
-// const mm = require('../node_modules/music-metadata');
-// const util = require('../node_modules/util');
-
-// (async () => {
-//     try {
-//         const mm = require("../node_modules/music-metadata");
-//         const metadata = await mm.parseFile('../node_modules/music-metadata/test/samples/MusicBrainz - Beth Hart - Sinner\'s Prayer [id3v2.3].V2.mp3');
-//     //   console.log(util.inspect(metadata, { showHidden: false, depth: null }));
-//     } catch (error) {
-//         console.error(error.message);
-//     }
-//     })();
-
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 let synth = new Tone.Synth().toMaster();
 const velocitySynth = [100, 800];
-
 
 const enum domClasses {
     Container = "containerSort",
