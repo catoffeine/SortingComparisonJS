@@ -1,0 +1,1 @@
+import { Synth } from 'tone'
