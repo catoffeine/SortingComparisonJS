@@ -1,11 +1,9 @@
 {
     "compilerOptions": {
-        "module": "es6",
-        "target": "es5",
-        "allowJs": true,
-        "outDir": "./dist/",
-        "noImplicitAny": true,
-        "moduleResolution": "node"
-        // "rootDir": "src"
+        // "emitDecoratorMetadata": true,
+        "module": "commonjs",
+        "target": "ES2016",
+        "outDir": "release/js",
+        "rootDir": "src"
     }
 }
